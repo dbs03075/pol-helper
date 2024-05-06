@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie app</title>
+    <link rel="stylesheet" href="movie-app.css">
+    <link rel="stylesheet" href="search.css">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <main>
+        <div class="random-img-container">
+              
+            
+        </div>
+  
+
+
+        <div class="popular-movie-container">
+            <h2>넷플릭스 인기 순위</h2>
+            <div class="popular-movie"></div>
+        </div>
+
+      
+    </main>
+    <div class="movieInfoPopupContainer hidden">
+        <div class="popup">
+            <i class="fas fa-times close"></i>
+            <div class="popup-img">
+                <img id="popupImage" src="http://image.tmdb.org/t/p/original/5FUwk37dQDRKs6Xxcw5Vcr5FtZZ.jpg" alt="">
+                <div class="popup-info">
+                    <div class="popup-info-title-container popup-info-container">
+                        <span id="popupTitle">내 머리 속 지우개</span>
+                    </div>
+                    <div class="popup-info-last-container popup-info-container ">
+                        <span id="popupDate">제작 연도</span>
+                        <span id="popupRuntime">시간</span>
+                        <span id="popupRate">평점</span>
+                        <span id="popupPeople">평가자 수</span>
+                    </div>
+                    <div class="popup-info-spot-container popup-info-container">
+                        <span id="popupSpot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reprehenderit excepturi, blanditiis, at sequi pariatur itaque quam obcaecati esse nulla ut neque quisquam perspiciatis, corporis fugit quos ratione corrupti? Voluptas!</span>
+                    </div>
+                    <div class="popup-info-who-container popup-info-container">
+                        <span id="popupActor">출연:123123</span>
+                        <span id="popupProducer">제작:123123</span>
+                    </div>
+                    <div class="popup-icon">
+                        <div class="popup-icon-container">
+                            <i class="fas fa-check hidden"></i>
+                            <i class="fas fa-plus"></i>
+                            <span>내가 찜한 콘텐츠</span>
+                        </div>
+                        <div class="popup-icon-container popup-good-bad">
+                            <div class="popup-for-good-bad hidden">
+                                <i class="fas fa-thumbs-up"></i>
+                                <i class="fas fa-thumbs-down"></i>
+                            </div>
+                            <i class="far fa-thumbs-up"></i>
+                            <span>평가</span>
+                        </div>
+                        <div class="popup-icon-container popup-download">
+                            <i class="fas fa-download"></i>
+                            <span>다운로드</span>
+                        </div>
+                    </div>
+                    <div class="popup-recommend">
+                        <div class="recommend-movie-container">
+                            <div class="recommend-movie" ></div>
+                            <div class="recommend-movie"></div>
+                        </div>
+                        <div class="recommend-movie-container">
+                            <div class="recommend-movie"></div>
+                            <div class="recommend-movie"></div>
+                        </div>
+                        <div class="recommend-movie-container">
+                            <div class="recommend-movie"></div>
+                            <div class="recommend-movie"></div>
+                        </div>
+                        <div class="recommend-movie-container">
+                            <div class="recommend-movie"></div>
+                            <div class="recommend-movie"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="movie-js/api.js" defer></script>    
+
+    <script>
+        //        ec266fe6efa0efcd70c8e76684834522
+    </script>
+</body>
+</html>
